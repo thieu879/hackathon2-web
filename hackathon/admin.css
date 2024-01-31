@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mau1 {
+    background: red;
+    color: aliceblue;
+}
+.mau2 {
+    background: green;
+    color: aliceblue;
+}
+
+.mau3 {
+    background: blue;
+    color: aliceblue;
+}
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+td, th {
+    padding: 8px;
+}
+table {
+    border-collapse: collapse;
+}
