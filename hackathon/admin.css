@@ -1,28 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.mau1 {
-    background: red;
-    color: aliceblue;
-}
-.mau2 {
-    background: green;
-    color: aliceblue;
+#newProject {
+    margin-bottom: 10px;
 }
 
-.mau3 {
-    background: blue;
-    color: aliceblue;
+#projectTable {
+    margin-top: 4vh;
+    width: 100%;
+    border-collapse: collapse;
 }
-tr:nth-child(even) {
-    background-color: gainsboro;
-}
-td, th {
+#projectTable th, #projectTable td {
+    border: 1px solid #ddd;
     padding: 8px;
 }
-table {
-    border-collapse: collapse;
+#projectTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#projectTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+}
+button{
+    border-radius: 10px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.input{
+    display: flex;
+    gap: 6vh;
+}
+.input div{
+    display: flex;
+    height: 5vh;
 }
